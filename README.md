@@ -31,7 +31,7 @@ The test scenarios covered are - log into the application and search products fr
 1. From IntelliJ : 
    * To run all the tests, click the 'Run Test' icon for 'TestRunner' class (at '....\amazonPOC\src\test\java\com.amazon.test.TestRunner).
    * To run a particular feature or scenario, click the 'Run Test' icon at feature level or scenario level (feature files located at '....\amazonPOC\src\test\resources\features\).
-2. From Command line (This option can also be used to run tests without requiring to build/compile the project):
+2. From Command line (This option can be used to run tests after building/compiling the project locally):
    * In Command Prompt, go to Directory '.....\amazonPOC\' and run below command:
    ```text
    gradlew.bat test --tests com.amazon.test.TestRunner
@@ -41,5 +41,5 @@ The test scenarios covered are - log into the application and search products fr
 .
 
 ## Test Artifacts:
-1. **Execution report**: Execution report file 'cucumber-tests.html' generated and located at '....\amazonPOC\reports'.
-2. **Execution logs**: Log file 'cucumber-tests.log' generated and located at '....\amazonPOC\logs'.
+1. **Execution report**: Execution report file 'cucumber-tests.html' will be generated and located at '....\amazonPOC\reports'.
+2. **Execution logs**: Log file 'cucumber-tests.log' will be generated and located at '....\amazonPOC\logs'.
